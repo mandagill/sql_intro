@@ -392,8 +392,7 @@ of an order.
 We'll start by querying for just half of the information we want: which melons
 were present in a given order.
 
-Task: Write a query that shows all columns
-that were attached to order #2725.
+Task: Write a query that shows all columns that were attached to order #2725.
 """,
 "hint": """Select all columns from the 'order_items' table where the order_id is equal to 2725.""",
 "solution": """SELECT * FROM order_items WHERE order_id = 2725;"""
